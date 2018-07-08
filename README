@@ -1,0 +1,25 @@
+========
+SPOTLAW
+========
+
+O sistema Spotlaw é uma plataforma web idealizada no Law Tech Hackathon 2018 Floripa e destinada a auxiliar
+advogados, estudantes, juízes, promotores, concurseiros e demais pessoas interessadas em qualquer assunto 
+relacionado à legislação brasileira. A plataforma reúne um único local e com atualização constante (diária),
+todas as informações a respeito de leis, medidas provisórias e muito mais, bem como, quem foi(ram) seu(s) 
+autor(es), relator(es) quando foi(am) criada(s), modificada(s), revogada(s), etc.. Cada usuário da
+plataforma poderá criar seu "Setlaw", que é algo semelante a um "Vade Mecum", porem personalizado.
+
+Sistemas governamentais disponibilizam gratuitamente seus dados em formato "xml" ou "json", porém são
+disponibilizados de maneira muito segmentada, nem sempre, tornando fácil o acesso à informação.
+A plataforma busca todos os dados nos sistemas do governo, faz download, concentra e organiza
+tudo em uma nova base de dados local.
+
+Todo o sistema da plataforma "Spotlaw" foi construído utilizando-se de linguagens web: PHP,
+HTML (neste primeiro momento), CSS, JAVASCRIPT e outras (em um segundo momento). Foi utilizado o formato "xml"
+para a obtenção dos dados. O sistema faz buscas nos dados governamentais com determinada frequência na tentativa
+de encontrar alterações ocorridas desde a última busca realizada. A menor alteração encontrada nos dados
+governamentais será imediatamente aplicada à base de dados do Spotlaw.
+
+Para esta demonstração foi possível codificar a obtençãao de dados de oito tabelas da base de dados livres
+da Câmara dos Deputados Federais. Isso significa aproximadamente 10% do total da base de dados
+diponibilizada pela casa.
